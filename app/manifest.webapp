@@ -3,7 +3,7 @@
   "description": "My elevator pitch goes here",
   "launch_path": "/3dfxos/index.html",
   "icons": {
-    "128": "/img/icon.PNG"
+    "128": "/3dfxos/img/icon.PNG"
   },
   "developer": {
     "name": "Your name or organization",
