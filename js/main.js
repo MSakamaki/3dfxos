@@ -19,7 +19,7 @@ function init() {
 
     scene = new THREE.Scene();
 
-    geometry = new THREE.CubeGeometry(200, 100, 100);
+    geometry = new THREE.CubeGeometry(200, 200, 200);
     material = new THREE.MeshBasicMaterial({
         color: 0xFF0000,
         wireframe: true
