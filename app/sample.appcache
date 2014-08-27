@@ -1,0 +1,23 @@
+CACHE MANIFEST
+# リソースを更新する場合、必ず値を変更する
+# マニフェストファイルを保存しておく場所は、htmlファイルと同じディレクトリです
+# 2013-04-06 v02
+
+# キャッシュしたいリソース
+# このうち一つでもファイルが見つからないとエラーになりキャッシュされません。
+CACHE:
+index.html
+js/main.js
+js/vendor/require.js
+js/vendor/three.js
+img/icon.PNG
+css/main.css
+
+# 常にネットワーク上を参照して欲しい場合に使用
+# 必ずオンラインアクセスを試みるリソース
+NETWORK:
+manifest.webapp
+
+# 代替エントリを宣言
+# アクセスに失敗した場合に代わりに使用するリソース（NETWORK:と両方に指定すると動作しない）
+FALLBACK:
