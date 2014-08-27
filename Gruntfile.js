@@ -72,8 +72,7 @@ module.exports = function(grunt) {
         },
         'gh-pages': {
           options: {
-            base: 'app',
-            repo: 'git@github.com:MSakamaki/3dfxos.git'
+            base: 'app'
           },
           src: ['**']
         }
