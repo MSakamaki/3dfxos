@@ -1,7 +1,7 @@
 {
   "name": "My App",
   "description": "My elevator pitch goes here",
-  "launch_path": "/index.html",
+  "launch_path": "/3dfxos/index.html",
   "icons": {
     "128": "/img/icon.PNG"
   },
