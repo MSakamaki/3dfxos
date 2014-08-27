@@ -86,4 +86,9 @@ module.exports = function(grunt) {
     });
 
     grunt.registerTask('default', ['newer:jsonlint', 'newer:jshint', 'serve']);
+    grunt.registerTask('ghp', function () {
+        grunt.task.run([
+            'gh-pages'
+        ]);
+    });
 };

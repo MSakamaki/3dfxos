@@ -21,7 +21,7 @@ function init() {
 
     geometry = new THREE.CubeGeometry(200, 100, 100);
     material = new THREE.MeshBasicMaterial({
-        color: 0x000000,
+        color: 0xFF0000,
         wireframe: true
     });
 
